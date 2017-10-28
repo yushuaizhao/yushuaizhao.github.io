@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yushuaizhao.github.io/404.html</loc>
+    
+    <lastmod>2017-10-28T16:32:34.411Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yushuaizhao.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-10-28T16:30:55.922Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yushuaizhao.github.io/2017/10/28/hexo%E5%8F%8Apandoc-render%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2017-10-28T16:03:03.489Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>https://yushuaizhao.github.io/tags/index.html</loc>
     
     <lastmod>2017-10-28T15:29:13.153Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yushuaizhao.github.io/2017/10/28/hello-world/</loc>
-    
-    <lastmod>2017-10-28T10:22:09.866Z</lastmod>
     
   </url>
   
