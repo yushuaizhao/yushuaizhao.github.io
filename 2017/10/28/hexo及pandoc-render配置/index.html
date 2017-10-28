@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="hexo," />
 
 
 
@@ -80,13 +80,14 @@
 
 
 <meta name="description" content="hexo安装及配置 安装 首先安装git和node.js，然后通过如下命令： 12345npm install hexo-cli -ghexo init blogcd blognpm installhexo server 修改配置 _config.yml 网站的配置信息，site部分和URL部分自行配置，，writing部分略修改，其余默认。 writing部分中启用asset文件夹">
+<meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo及pandoc-render配置">
 <meta property="og:url" content="https://yushuaizhao.github.io/2017/10/28/hexo及pandoc-render配置/index.html">
-<meta property="og:site_name" content="博客|记录">
+<meta property="og:site_name" content="shuaizhao|blog">
 <meta property="og:description" content="hexo安装及配置 安装 首先安装git和node.js，然后通过如下命令： 12345npm install hexo-cli -ghexo init blogcd blognpm installhexo server 修改配置 _config.yml 网站的配置信息，site部分和URL部分自行配置，，writing部分略修改，其余默认。 writing部分中启用asset文件夹">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-10-28T11:53:11.688Z">
+<meta property="og:updated_time" content="2017-10-28T15:33:21.759Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo及pandoc-render配置">
 <meta name="twitter:description" content="hexo安装及配置 安装 首先安装git和node.js，然后通过如下命令： 12345npm install hexo-cli -ghexo init blogcd blognpm installhexo server 修改配置 _config.yml 网站的配置信息，site部分和URL部分自行配置，，writing部分略修改，其余默认。 writing部分中启用asset文件夹">
@@ -125,12 +126,22 @@
 
 
 
-  <title>hexo及pandoc-render配置 | 博客|记录</title>
+  <title>hexo及pandoc-render配置 | shuaizhao|blog</title>
   
 
 
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?d5f997e8e25c25b25f69b9a78dffd0d3";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -155,12 +166,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">博客|记录</span>
+        <span class="site-title">shuaizhao|blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">shuaizhao的blog</p>
+        <p class="site-subtitle">shuaizhao的博客</p>
       
   </div>
 
@@ -297,11 +308,11 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="shuaizhao">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/large.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="博客|记录">
+      <meta itemprop="name" content="shuaizhao|blog">
     </span>
 
     
@@ -370,15 +381,11 @@
 <h1 id="pandoc-render配置">pandoc-render配置</h1>
 <p>首先安装pandoc</p>
 <h2 id="配置">配置</h2>
-<p>先安装hexo-renderer-pandoc<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<p>先安装hexo-renderer-pandoc</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-renderer-pandoc --save</div></pre></td></tr></table></figure>
 <p>配置参考<a href="https://github.com/wzpan/hexo-renderer-pandoc" target="_blank" rel="external">hexo-renderer-pandoc</a></p>
-<div class="footnotes">
-<hr>
-<ol>
-<li id="fn1"><p>shuaizhao<a href="#fnref1">↩</a></p></li>
-</ol>
-</div>
+<h1 id="next主题配置">Next主题配置</h1>
+<p>参考 <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">next使用文档</a> 、<a href="https://github.com/iissnan/hexo-theme-next/wiki/" target="_blank" rel="external">next wiki</a></p>
 
       
     </div>
@@ -393,6 +400,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+        </div>
       
 
       
@@ -477,6 +490,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/large.jpg"
+                alt="shuaizhao" />
+            
               <p class="site-author-name" itemprop="name">shuaizhao</p>
               <p class="site-description motion-element" itemprop="description">记录学习和生活</p>
           </div>
@@ -497,12 +514,29 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
 
           </nav>
 
           
 
           <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/yushuaizhao" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-globe"></i>GitHub</a>
+                </span>
+              
             
           </div>
 
@@ -527,7 +561,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo安装及配置"><span class="nav-number">1.</span> <span class="nav-text">hexo安装及配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">1.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改配置"><span class="nav-number">1.2.</span> <span class="nav-text">修改配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#config.yml"><span class="nav-number">1.2.1.</span> <span class="nav-text">_config.yml</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#pandoc-render配置"><span class="nav-number">2.</span> <span class="nav-text">pandoc-render配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">2.1.</span> <span class="nav-text">配置</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo安装及配置"><span class="nav-number">1.</span> <span class="nav-text">hexo安装及配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">1.1.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改配置"><span class="nav-number">1.2.</span> <span class="nav-text">修改配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#config.yml"><span class="nav-number">1.2.1.</span> <span class="nav-text">_config.yml</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#pandoc-render配置"><span class="nav-number">2.</span> <span class="nav-text">pandoc-render配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#配置"><span class="nav-number">2.1.</span> <span class="nav-text">配置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#next主题配置"><span class="nav-number">3.</span> <span class="nav-text">Next主题配置</span></a></li></ol></div>
             
 
           </div>
