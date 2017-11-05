@@ -4,6 +4,7 @@ node_js: stable  #设置相应的版本
 
 install:
   - npm install  #安装hexo及插件
+  - sudo apt install pandoc #安装pandoc
 
 script:
   - hexo cl  #清除
