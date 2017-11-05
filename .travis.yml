@@ -6,7 +6,7 @@ install:
   - npm install  #安装hexo及插件
   
 before_script:  
-  - sudo apt-get install pandoc #安装pandoc
+  - sudo apt-get install pandoc pandoc-citeproc#安装pandoc
 
 script:
   - hexo cl  #清除
