@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yushuaizhao.github.io/"/>
-  <updated>2017-11-05T12:34:35.289Z</updated>
+  <updated>2017-11-05T12:36:39.824Z</updated>
   <id>https://yushuaizhao.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yushuaizhao.github.io/2017/10/30/opencv+python%E5%9C%A8Linux%E4%B8%8B%E7%9A%84%E5%AE%89%E8%A3%85/"/>
     <id>https://yushuaizhao.github.io/2017/10/30/opencv+python在Linux下的安装/</id>
     <published>2017-10-29T16:00:00.000Z</published>
-    <updated>2017-11-05T12:34:35.289Z</updated>
+    <updated>2017-11-05T12:36:39.824Z</updated>
     
     <summary type="html">
     
@@ -39,7 +39,11 @@
     </summary>
     
     
-      <category term="-deep learning -linux -python" scheme="https://yushuaizhao.github.io/tags/deep-learning-linux-python/"/>
+      <category term="deep learning" scheme="https://yushuaizhao.github.io/tags/deep-learning/"/>
+    
+      <category term="linux" scheme="https://yushuaizhao.github.io/tags/linux/"/>
+    
+      <category term="python" scheme="https://yushuaizhao.github.io/tags/python/"/>
     
   </entry>
   
