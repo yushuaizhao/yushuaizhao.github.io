@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yushuaizhao.github.io/2017/10/30/opencv+python%E5%9C%A8Linux%E4%B8%8B%E7%9A%84%E5%AE%89%E8%A3%85/</loc>
+    
+    <lastmod>2017-11-05T12:34:35.289Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yushuaizhao.github.io/2017/10/29/tensorflow%E4%B8%8Eopencv%E5%AE%89%E8%A3%85/</loc>
     
     <lastmod>2017-10-29T07:46:37.330Z</lastmod>

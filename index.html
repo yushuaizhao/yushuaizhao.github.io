@@ -314,6 +314,146 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://yushuaizhao.github.io/2017/10/30/opencv+python在Linux下的安装/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="shuaizhao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/large.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="shuaizhao|blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/10/30/opencv+python在Linux下的安装/" itemprop="url">opencv+python在Linux下的安装</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-30T00:00:00+08:00">
+                2017-10-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/10/30/opencv+python在Linux下的安装/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/10/30/opencv+python在Linux下的安装/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="安装前准备">安装前准备</h1>
+<p>linux下opencv用源码安装，要求有编译环境，安装时可以根据报错查看</p>
+<p>一般有gcc、g++、cmake、pkg-config</p>
+<h1 id="安装">安装</h1>
+<p>首先下载源码，建议git</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git <span class="built_in">clone</span> https://github.com/opencv/opencv.git</div><div class="line">git <span class="built_in">clone</span> https://github.com/opencv/opencv_contrib.git</div></pre></td></tr></table></figure>
+<p>然后在opencv文件夹下新建build文件夹，进入build文件夹，执行下面的语句。这里要注意使用的是python3的3.5版本，版本号要对上，另外还有numpy的安装位置PYTHON3_NUMPY_INCLUDE_DIRS，通过<code>pip3 show numpy</code>显示。</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">cmake -D CMAKE_BUILD_TYPE=Release \  </div><div class="line">-D CMAKE_INSTALL_PREFIX=/usr/<span class="built_in">local</span>  \  </div><div class="line">PYTHON3_EXECUTABLE=/usr/bin/python3 \  </div><div class="line">PYTHON_INCLUDE_DIR=/usr/include/python3.5 \  </div><div class="line">PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.5m.so \  </div><div class="line">PYTHON3_NUMPY_INCLUDE_DIRS=/home/shuaizhao/.<span class="built_in">local</span>/lib/python3.5/site-packages/numpy/core/include ..</div></pre></td></tr></table></figure>
+<p>若有问题，去掉D后面的空格</p>
+<p>最后<code>make</code>和<code>sudo make instal</code>即可。注意make可以使用例如<code>make -j7</code>采用多个进程。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://yushuaizhao.github.io/2017/10/29/tensorflow与opencv安装/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -2241,7 +2381,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">9</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -2254,7 +2394,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
