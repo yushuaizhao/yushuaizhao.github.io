@@ -23,14 +23,14 @@ Deepin 15 ABAQUS 6.14
 2. sudo csh abaqus/setup
 3. 按照教程走，与Windows类似。注意第一步的路径为临时安装路径，可以随意，然后一路向下，直到安装licensed，选择只安装license server但是不启动。安装完license后，停止下面的操作，先破解。
 4. 进入安装license的文件夹中的License，然后在此打开终端，修改破解的ABAQUS.lic文件，将this_host 改为本机的主机名，在Linux中可以通过终端来看，就是@后面的东西。将其复制到Lisence文件夹下，运行 ./lmgrd -c ABAQUS.lic
-，这样就跑起来了。然后用 ```./lmstat -c yourhostname@127.0.0.1 ```
+，这样就跑起来了。然后用./lmstat -c yourhostname@127.0.0.1
 查看服务器运行状态，记下端口号，一般为27011.
 5. 现在继续ABAQUS的安装，服务器地址为   端口号@主机名 ，例子可以看界面上部的Example，然后一路向下，安装结束
 
 # 注意事项
 
-1.  之后的启动必须在License服务器启动之后，也就是先执行 ``` ./lmgrd ``` ，再执行 ``` ./abaqus cae ``` ，其中一个在服务器的License文件夹下，一个在ABAQUS安装目录的commander目录下。
-2.  窗口透明是因为OpenGL的问题，解决方式为 ``` env XLIB_SKIP_ARGB_VISUALS=1 ./abaqus cae ```
+1.  之后的启动必须在License服务器启动之后，也就是先执行  ./lmgrd ，再执行./abaqus cae ，其中一个在服务器的License文件夹下，一个在ABAQUS安装目录的commander目录下。
+2.  窗口透明是因为OpenGL的问题，解决方式为  env XLIB_SKIP_ARGB_VISUALS=1 ./abaqus cae 
 3.  可能缺少共享库，直接安装就行。
 4.  把Intel Fortran与ABAQUS连接需要修改PATH环境变量，将ifort加入环境变量即可我的在“/opt/intel/compilers_and_libraries_2017/linux/bin/intel64/”
 
