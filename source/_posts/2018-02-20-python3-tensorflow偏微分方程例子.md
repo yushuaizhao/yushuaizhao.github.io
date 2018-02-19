@@ -73,7 +73,7 @@ DisplayArray(u_init, rng=[-0.1, 0.1])
 ```
 
 
-![jpeg](output_4_0.jpg)
+![池塘](./assert/output_4_0.jpg)
 
 
 
@@ -116,4 +116,4 @@ for i in range(1000):
 ```
 
 
-![jpeg](output_6_0.jpg)
+![仿真](./assert/output_6_0.jpg)
