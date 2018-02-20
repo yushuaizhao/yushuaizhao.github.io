@@ -73,7 +73,7 @@ DisplayArray(u_init, rng=[-0.1, 0.1])
 ```
 
 
-![池塘](./assert/output_4_0.jpg)
+![池塘](https://www.github.com/yushuaizhao/blogimg/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1519031170340.jpg)
 
 
 
@@ -116,4 +116,4 @@ for i in range(1000):
 ```
 
 
-![仿真](./assert/output_6_0.jpg)
+![仿真](https://www.github.com/yushuaizhao/blogimg/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1519031170345.jpg)

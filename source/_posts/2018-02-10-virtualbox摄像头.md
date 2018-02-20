@@ -34,4 +34,7 @@ virtualbox的使用体验感觉还不错，但使用时有一些地方需要注�
 
 win7\win8\win10虚拟机微软有着专门用于测试IE的虚拟机可供使用，感觉比较流畅。下载地址为：[https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/)
 
+安装完后注意是英文版，要安装中文安装包，具体操作为```打开控制面板->安装更新->可选更新->安装语言包```
+
+
 
