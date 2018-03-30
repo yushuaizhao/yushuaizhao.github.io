@@ -1,13 +1,14 @@
 ---
 layout: post
-title: windows abaqus安装 
+title: windows-abaqus安装 
 subtitle:  
 date: 2018-03-12
 catalog: true
 tags: 
     - 软件相关
 
---
+---
+
 
 # 安装准备
 
